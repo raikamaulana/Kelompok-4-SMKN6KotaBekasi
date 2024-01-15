@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
     <title><?php echo $data['title'] ?></title>
 </head>
 <body>
     <div class="bg-blue-800 rounded-lg py-4 m-2">
-        <h1 align="center" class="text-white text-5xl font-medium"><?php echo $data['header'] ?></h1>
+        <h1 align="center" class="text-white text-5xl font-chakra font-semibold tracking-wider"><?php echo $data['header'] ?></h1>
     </div>
     <div class="bg-slate-300 flex gap-10 rounded-lg p-4 m-2">
         <div class="flex items-center relative max-w-3xl">
@@ -33,11 +36,13 @@
         </div>
         <div class="border-l border-slate-500 w-full">
             <div class="ml-10">
-                <h1 class="text-lg font-bold">Mata Pelajaran :</h1>
+                <h1 class="text-lg font-bold">Sekolah :</h1>
+                <h2><?php echo $data['namaSekolah'] ?></h2>
+                <h1 class="text-lg font-bold mt-2">Mata Pelajaran :</h1>
                 <h2><?php echo $data['mataPelajaran'] ?></h2>
-                <h3 class="text-lg font-bold mt-3">Guru :</h3>
+                <h3 class="text-lg font-bold mt-2">Guru :</h3>
                 <h4><?php echo $data['namaGuru'] ?></h4>
-                <h5 class="text-lg font-bold mt-3">Kelas :</h5>
+                <h5 class="text-lg font-bold mt-2">Kelas :</h5>
                 <h6><?php echo $data['kelas'] ?></h6>
             </div>
         </div>
@@ -96,7 +101,7 @@
         </div>
     </div>
     <div class="bg-blue-800 rounded-lg py-8 mx-2 mb-1">
-        <h4 class="text-center text-4xl text-white font-bold"><?php echo $data['footer'] ?></h4>
+        <h4 class="text-center text-5xl text-white font-bold font-chakra tracking-wider"><?php echo $data['footer'] ?></h4>
     </div>
     <div class="bg-blue-900 rounded-lg py-2 mx-2 mb-2">
         <h4 class="text-center text-sm text-white font-thin italic"><?php echo $data['copyright'] ?></h4>

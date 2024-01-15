@@ -7,6 +7,7 @@ class Model {
             'header2' => 'KELOMPOK 4',
             'header3' => 'Selamat datang di halaman kelompok 4, kelompok ini dibentuk untuk mengikuti pelajaran Pemrograman Web & Perangkat Bergerak (PWPB), mohon untuk dukung selalu kelompok 4 agar tetap semangat mengikuti mata pelajaran PWPB, GANBATTEE MINNA!!!',
             'mataPelajaran' => 'Pemrograman Web & Perangkat Bergerak',
+            'namaSekolah' => 'SMK Negeri 6 Kota Bekasi',
             'namaGuru' => 'Mustika Ningrum, S.T',
             'kelas' => 'XII RPL 3',
             'ketuaKelompok' => 'Ketua Kelompok',
